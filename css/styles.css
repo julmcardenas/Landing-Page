@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --paper-shadow: #c9bf8d;
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -7614,6 +7615,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.-mt-5 {
+  margin-top: -3rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -11014,7 +11019,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/yellow-wall.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11107,4 +11112,26 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.profile {
+  position: relative;
+  height: 75vw;
+  width: 75vw;
+  border-radius: 5vw;
+  max-height: 40rem;
+  max-width: 40rem;
+}
+.profile .profile-img {
+  height: 80vw;
+  max-height: 25rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+
 }
